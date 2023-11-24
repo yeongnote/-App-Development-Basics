@@ -17,6 +17,7 @@ class MyTableViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         myTableView.backgroundColor = .systemTeal
+        
         //TableView를 MyTableViewController에 위임.
         myTableView.delegate = self
         myTableView.dataSource = self
